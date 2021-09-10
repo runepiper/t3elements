@@ -1,0 +1,7 @@
+services:
+  VV\T3elements\EventListener\AddCustomElementsTca:
+    tags:
+      - name: event.listener
+        identifier: 'myListener'
+        # before: 'redirects, anotherIdentifier'
+        event: TYPO3\CMS\Core\Configuration\Event\AfterTcaCompilationEvent

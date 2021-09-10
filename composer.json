@@ -1,0 +1,28 @@
+{
+    "name": "visuellverstehen/t3elements",
+    "description": "Extension for easily creating custom content elements",
+    "type": "typo3-cms-extension",
+    "require": {
+        "php": "7.4 || ^8.0",
+        "typo3/cms-core": "^9.5 || ^10.4 || ^11.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "typo3/testing-framework": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "VV\\T3elements\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VV\\T3elements\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3elements"
+        }
+    }
+}
